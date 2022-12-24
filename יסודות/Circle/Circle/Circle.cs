@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Circle
 {
-    internal class Circle
+    class Circle
     {
         private double radius;
         private ConsoleColor color;
@@ -17,13 +17,13 @@ namespace Circle
             radius = r;
             color = c;
         }
-
+        
         public void Print()
         {
-            Console.Write("I am a ");
-            Console.ForegroundColor = color;
-            Console.Write(color);
-            Console.ForegroundColor = ConsoleColor.White;
+		    Console.Write("I am a " );
+			Console.ForegroundColor = color;
+			Console.Write(color);
+			Console.ForegroundColor = ConsoleColor.White;
             Console.WriteLine(" Circle with radius " + radius);
         }
 
@@ -34,8 +34,6 @@ namespace Circle
         }
 
         // פעולה מאחזרת רדיוס
-        erwrwrer
-
         public double GetRadius()
         {
             return radius;
