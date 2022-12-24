@@ -5,6 +5,9 @@
 
 #custom
 *._*
+*.exe
+*.docx
+*.pptx
 
 # User-specific files
 *.rsuser
