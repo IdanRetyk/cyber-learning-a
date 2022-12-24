@@ -7,7 +7,14 @@
 *._*
 *.exe
 *.docx
+*.doc
 *.pptx
+*.ppt
+*.map
+*.td
+*.ovl
+*.tr
+
 
 # User-specific files
 *.rsuser
